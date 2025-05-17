@@ -1,7 +1,10 @@
 import tkinter as tk
 
 def sumar():
-    pass  # Alexander
+    a = float(entry1.get())
+    b = float(entry2.get())
+    resultado = a + b
+    resultado_label.config(text=f"Resultado: {resultado}")
 
 def restar():
     pass  # Jhaider
