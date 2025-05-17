@@ -1,16 +1,17 @@
 import tkinter as tk
 
 def sumar():
-    a = float(entry1.get())
-    b = float(entry2.get())
-    resultado = a + b
-    resultado_label.config(text=f"Resultado: {resultado}")
+    pass  # Alexander
 
 def restar():
     pass  # Jhaider
 
 def multiplicar():
-    pass  # Albert
+    a = float(entry1.get())
+    b = float(entry2.get())
+    resultado = a * b
+    resultado_label.config(text=f"Resultado: {resultado}")
+
 
 # Interfaz
 root = tk.Tk()
